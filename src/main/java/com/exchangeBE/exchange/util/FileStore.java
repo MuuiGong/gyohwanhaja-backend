@@ -21,8 +21,8 @@ public class FileStore {
         this.uploadFileRepository = uploadFileRepository;
     }
 
-    @Value("${file.dir}") // application.properties에 파일 저장 경로 설정
-    private String fileDir;
+    //@Value("${file.dir}") // application.properties에 파일 저장 경로 설정
+    private String fileDir = "/Desktop/";
 
     public String getFullPath(String filename) {
         return fileDir + filename;
