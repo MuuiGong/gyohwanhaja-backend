@@ -43,15 +43,18 @@ repositories {
 		implementation 'org.springframework.boot:spring-boot-starter-data-redis'
 
 		//JWT
-		implementation 'io.jsonwebtoken:jjwt-api:0.12.3'
-		implementation 'io.jsonwebtoken:jjwt-impl:0.12.3'
-		implementation 'io.jsonwebtoken:jjwt-jackson:0.12.3'
+		implementation 'io.jsonwebtoken:jjwt-api:0.12.5'
+		implementation 'io.jsonwebtoken:jjwt-impl:0.12.5'
+		implementation 'io.jsonwebtoken:jjwt-jackson:0.12.5'
 
 		//swagger
 		implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.1.0'
 
 		// email
 		implementation 'org.springframework.boot:spring-boot-starter-mail'
+
+		// oauth2
+		implementation 'org.springframework.boot:spring-boot-starter-oauth2-client'
 	}
 }
 
